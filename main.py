@@ -50,6 +50,12 @@ class Store():
         if item_name in self.items:
             self.items[item_name] = new_price
 
+    def info(self):
+        print(f"Наименование магазина - {self.name}")
+        print(f"адрес магазина - {self.address}")
+        print(f"продукция - {self.items}")
+
+
 store1 = Store(name="Десяточка", address="Москва, ул. Академика Королева, 12")
 store2 = Store(name="Техника", address="Санкт-Петербург, ул. Глинянная, 1")
 store3 = Store(name="Все для дачи", address="Ростов на Дону, ул. Речная, 5")
