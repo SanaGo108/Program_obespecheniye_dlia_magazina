@@ -82,3 +82,4 @@ new_price_apples = store1.get_price("яблоки")
 new_price_oranges = store1.get_price("картошка")
 nonexistent_price = store1.get_price("молоко")
 
+store1.info()
